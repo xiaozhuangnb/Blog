@@ -56,3 +56,18 @@
 - Axios 0.21
 - Element 2.15
 
+#运行
+前端文件夹：blog-vue
+运行命令
+cd blog-vue
+npm i
+npm run serve
+后端文件夹：blog-admin
+修改blog-admin\src\main\resources\application-druid.yml文件
+            master:
+                url: jdbc:mysql://localhost:3306/（自己的数据库名字）?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+                username: （数据库名字）
+                password: （数据库密码）
+
+数据库文件：vue-blog-master\sql\vue-blog.sql
+                
